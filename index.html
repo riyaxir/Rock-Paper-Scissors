@@ -147,8 +147,8 @@
            document.querySelector('.js-result').innerHTML = result;
 
            document.querySelector('.js-moves').innerHTML = `You
-        <img src="images/${playerMove}-emoji.png" alt="" class="hand-icon">
-        <img src="images/${computerMove}-emoji.png" alt="" class="hand-icon">
+        <img src="images/${playerMove.toLowerCase()}-emoji.png" alt="${playerMove}" class="hand-icon">
+        <img src="images/${computerMove.toLowerCase()}-emoji.png" alt="${computerMove}" class="hand-icon">
         Computer `;
         }
 
